@@ -1,0 +1,38 @@
+# Core Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Image Processing
+opencv-python==4.8.1.78
+opencv-contrib-python==4.8.1.78
+Pillow==10.1.0
+
+# Deep Learning
+torch==2.1.1
+torchvision==0.16.1
+
+# Transformers and Models
+transformers==4.35.2
+accelerate==0.25.0
+safetensors==0.4.1
+
+# Computer Vision and Segmentation
+timm==0.9.12
+
+# Numerical Computing
+numpy==1.24.3
+scipy==1.11.4
+
+# Additional Dependencies
+python-dotenv==1.0.0
+requests==2.31.0
+tqdm==4.66.1
+
+# Optional but recommended for better performance
+# Uncomment if you have CUDA installed
+# torch==2.1.1+cu118
+# torchvision==0.16.1+cu118
+
+# Note: For CUDA support, install PyTorch with CUDA from:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
